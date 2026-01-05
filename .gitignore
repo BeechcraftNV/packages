@@ -1,0 +1,8 @@
+# Ignore everything in ~/Documents
+*
+
+# Except these specific package reference files
+!.gitignore
+!packages.md
+!README.md
+!system-packages.md
