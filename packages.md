@@ -50,6 +50,7 @@ tailscale            # VPN mesh network
 nmap                 # network scanner
 arp-scan             # local network discovery
 netcat-openbsd       # network debugging
+wl-clipboard         # Wayland clipboard utilities
 ```
 
 ## Development
@@ -118,12 +119,12 @@ com.sleepfiles.OSCAR                   # sleep apnea data viewer
 
 **Debian/Ubuntu:**
 ```bash
-sudo apt install vim git curl wget rsync tmux fzf eza bat fd-find btop
+sudo apt install vim git curl wget rsync tmux fzf eza bat fd-find btop wl-clipboard
 ```
 
 **Arch:**
 ```bash
-sudo pacman -S vim git curl wget rsync tmux fzf eza bat fd btop
+sudo pacman -S vim git curl wget rsync tmux fzf eza bat fd btop wl-clipboard
 ```
 
 **Flatpak:**

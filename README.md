@@ -15,13 +15,15 @@ Also useful for:
 
 ## Structure
 
-**packages.md** contains all packages organized into categories:
+**packages.md** contains curated packages organized into categories:
 - Essential CLI tools (vim, git, curl, etc.)
 - Modern CLI replacements (eza, bat, fd, btop)
 - Terminal emulators (multiple options to test)
 - Development tools
 - Media applications
 - GUI applications (native and Flatpak)
+
+**system-packages.md** is a generated snapshot of actual installed packages on the current system (for reference/comparison)
 
 ## Usage
 
