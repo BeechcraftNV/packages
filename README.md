@@ -6,12 +6,13 @@ Personal reference list for populating fresh Linux system installs. Contains cur
 
 This repository is my go-to resource when installing a new distro or setting up a fresh OS. Instead of remembering package names or searching for tools, I can quickly pull this list and install what I need.
 
-**Primary use case:** Fresh distro/OS installs - open this list and populate the new system with preferred tools and applications.
+**Primary use case:** Fresh distro/OS installs - a package name reference, not install scripts. Since the next OS could be Debian, Arch, NixOS, or something else entirely, the focus is on **what** to install, not **how**.
 
 Also useful for:
 - Migrating between distributions
 - Sharing package recommendations
 - Maintaining consistency across multiple machines
+- Testing different distros (even NixOS)
 
 ## Structure
 
@@ -30,11 +31,10 @@ Also useful for:
 On a fresh install:
 1. Clone this repo
 2. Review `packages.md`
-3. Pick packages based on your distro/DE
-4. Copy relevant install commands
-5. Customize as needed
+3. Search for package names in your distro's package manager
+4. Install what makes sense for your environment
 
-Quick install examples are included at the bottom of `packages.md` for common package managers (apt, pacman, flatpak).
+Package names may vary slightly between distros (e.g., `fd-find` on Debian vs `fd` on Arch), but Flatpak IDs are consistent everywhere.
 
 ## Notes
 

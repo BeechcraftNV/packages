@@ -113,31 +113,22 @@ com.sleepfiles.OSCAR                   # sleep apnea data viewer
 
 ---
 
-## Installation Notes
+## Notes
 
-### Quick install patterns:
+This is a **package name reference**, not an install script. The next OS could be Debian, Arch, NixOS, or something else entirely - so specific install commands aren't useful.
 
-**Debian/Ubuntu:**
-```bash
-sudo apt install vim git curl wget rsync tmux fzf eza bat fd-find btop wl-clipboard
-```
+**How to use:**
+1. Open this list on fresh install
+2. Search for package names in your distro's package manager
+3. Install what you need for that environment
 
-**Arch:**
-```bash
-sudo pacman -S vim git curl wget rsync tmux fzf eza bat fd btop wl-clipboard
-```
-
-**Flatpak:**
-```bash
-flatpak install com.spotify.Client org.videolan.VLC org.qbittorrent.qBittorrent
-```
-
-### Remember:
+**Remember:**
+- Package names may vary slightly between distros (e.g., `fd-find` vs `fd`)
+- Flatpak IDs are consistent across all distros
 - Terminal choice depends on testing mood that day
 - File manager depends on DE
 - Don't install all terminals at once (but you will anyway)
-- Docker/Podman installed separately via their official repos
-- Tailscale needs their repo setup first
+- Some packages need additional repo setup (Docker, Tailscale, etc.)
 
 ---
 
