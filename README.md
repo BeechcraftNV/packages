@@ -1,3 +1,10 @@
+- [Package Reference List](#package-reference-list)
+  - [Purpose](#purpose)
+  - [Structure](#structure)
+  - [Usage](#usage)
+  - [Notes](#notes)
+
+
 # Package Reference List
 
 Personal reference list for populating fresh Linux system installs. Contains curated packages from apt/pacman and Flatpak organized by category.
